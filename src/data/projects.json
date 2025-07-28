@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Task Management App",
+      "description": "A modern task management application with drag-and-drop functionality",
+      "rating": 4.8,
+      "uploadDate": "2024-01-15",
+      "category": "Productivity",
+      "tech": ["React", "Node.js", "MongoDB"],
+      "image": "/placeholder.svg?height=200&width=400"
+    },
+    {
+      "id": 2,
+      "title": "E-commerce Platform",
+      "description": "Full-stack e-commerce solution with payment integration",
+      "rating": 4.9,
+      "uploadDate": "2024-01-10",
+      "category": "E-commerce",
+      "tech": ["Next.js", "Stripe", "PostgreSQL"],
+      "image": "/placeholder.svg?height=200&width=400"
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "Real-time weather tracking with beautiful visualizations",
+      "rating": 4.6,
+      "uploadDate": "2024-01-08",
+      "category": "Utility",
+      "tech": ["Vue.js", "Chart.js", "OpenWeather API"],
+      "image": "/placeholder.svg?height=200&width=400"
+    },
+    {
+      "id": 4,
+      "title": "Social Media Analytics",
+      "description": "Comprehensive analytics dashboard for social media metrics",
+      "rating": 4.7,
+      "uploadDate": "2024-01-05",
+      "category": "Analytics",
+      "tech": ["React", "D3.js", "Express"],
+      "image": "/placeholder.svg?height=200&width=400"
+    },
+    {
+      "id": 5,
+      "title": "Recipe Finder",
+      "description": "Discover and save your favorite recipes with smart search",
+      "rating": 4.5,
+      "uploadDate": "2024-01-03",
+      "category": "Lifestyle",
+      "tech": ["React Native", "Firebase", "Spoonacular API"],
+      "image": "/placeholder.svg?height=200&width=400"
+    },
+    {
+      "id": 6,
+      "title": "Expense Tracker",
+      "description": "Personal finance management with budget tracking",
+      "rating": 4.4,
+      "uploadDate": "2024-01-01",
+      "category": "Finance",
+      "tech": ["Angular", "Node.js", "MySQL"],
+      "image": "/placeholder.svg?height=200&width=400"
+    },
+    {
+      "id": 7,
+      "title": "Code Snippet Manager",
+      "description": "Organize and share your code snippets with syntax highlighting",
+      "rating": 4.8,
+      "uploadDate": "2023-12-28",
+      "category": "Developer Tools",
+      "tech": ["Next.js", "Prisma", "Tailwind CSS"],
+      "image": "/placeholder.svg?height=200&width=400"
+    },
+    {
+      "id": 8,
+      "title": "Fitness Tracker",
+      "description": "Track workouts and monitor fitness progress",
+      "rating": 4.3,
+      "uploadDate": "2023-12-25",
+      "category": "Health",
+      "tech": ["React", "Chart.js", "SQLite"],
+      "image": "/placeholder.svg?height=200&width=400"
+    }
+  ]
+}

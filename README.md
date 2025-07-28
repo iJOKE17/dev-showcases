@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dev Showcase
+
+A modern web app for discovering, sharing, and exploring side projects built by developers. Browse a gallery of projects, view rich details, and get inspired!
+
+## Features
+
+- 🏷️ **Project Gallery:** Search, filter, and sort a collection of developer side projects.
+- 📄 **Project Details:** Each project has a dedicated page with:
+  - Rich formatted descriptions (powered by Tiptap)
+  - Video demos and image galleries
+  - Tech stack, ratings, and categories
+- 🔍 **Search & Sort:** Find projects by keyword, category, or sort by newest/rating.
+- 💻 **Modern UI:** Responsive, accessible, and visually appealing interface using Tailwind CSS and custom UI components.
+- ❌ **Custom 404 Page:** Friendly error page for missing routes.
+
+## Tech Stack
+
+- [Next.js 15](https://nextjs.org/) (App Router, React 19)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Tiptap Editor](https://tiptap.dev/product/editor) (for rich text content)
+- [Lucide React](https://lucide.dev/)
+- Custom UI components (Card, Badge, Button, Input, Select)
+- Project data from local JSON
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Run the development server:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Open your browser:**
 
-## Learn More
+   Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `src/app/` — Main app pages and layout
+- `src/components/` — UI and feature components
+- `src/data/projects.json` — Project data source
+- `src/assets/` — Static assets and images
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## External Libraries
 
-## Deploy on Vercel
+- [Tiptap Editor](https://tiptap.dev/product/editor) — Rich text editor for project details
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for learning and demonstration purposes.
