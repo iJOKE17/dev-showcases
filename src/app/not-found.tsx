@@ -13,7 +13,7 @@ export default function NotFound() {
             404
           </h1>
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
+            <div className="w-24 h-24 sm:w-32 sm:h-32  rounded-full flex items-center justify-center shadow-lg" style={{ backgroundColor: "#3498db" }}>
               <svg
                 className="w-12 h-12 sm:w-16 sm:h-16 text-white"
                 fill="none"
